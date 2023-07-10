@@ -14,6 +14,7 @@ class TeamMatches extends Component {
     recentMatchesData: [],
     teamBannerUrl: '',
     isFetched: false,
+    id: '',
   }
 
   componentDidMount() {
@@ -67,6 +68,7 @@ class TeamMatches extends Component {
       recentMatchesData: updatedOtherRecentMatches,
       teamBannerUrl,
       isFetched: true,
+      id,
     })
   }
 
@@ -76,9 +78,11 @@ class TeamMatches extends Component {
       recentMatchesData,
       teamBannerUrl,
       isFetched,
+      id,
     } = this.state
+
     return (
-      <div className="bg-conts">
+      <div className={`bg-conts ${id}`}>
         <img src={teamBannerUrl} className="team-banner" alt="team banner" />
         <div>
           <h1 className="headings">Latest Matches</h1>
