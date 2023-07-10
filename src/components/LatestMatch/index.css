@@ -1,0 +1,116 @@
+/* Write your CSS here */
+.latest-match-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  border-radius: 10px;
+  padding-top: 30px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.upper-cont {
+  border-bottom: 2px solid #475569;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main-lines {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.not-main-lines {
+  font-size: 12px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.competing-team-logo {
+  height: 45px;
+}
+
+.upper-cont-1 {
+  width: 80%;
+}
+
+.upper-cont-2 {
+  margin-left: 20px;
+  display: flex;
+  width: 20%;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.lower-cont {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heads {
+  font-size: 15px;
+  padding-bottom: 7px;
+}
+
+.not-heads {
+  font-size: 13px;
+  padding-bottom: 7px;
+}
+
+@media (min-width: 1000px) {
+  .latest-match-card {
+    background-color: #0f172a;
+    border-radius: 10px;
+    padding-top: 30px;
+    color: white;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .main-lines {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .not-main-lines {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+
+  .competing-team-logo {
+    height: 160px;
+  }
+
+  .upper-cont {
+    border-bottom: 2px solid #475569;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+  }
+
+  .lower-cont {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    width: 40%;
+  }
+
+  .heads {
+    font-size: 20px;
+    padding-bottom: 18px;
+    font-weight: 500;
+  }
+
+  .not-heads {
+    font-size: 15px;
+    padding-bottom: 18px;
+  }
+}

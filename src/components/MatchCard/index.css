@@ -1,0 +1,84 @@
+/* Write your CSS here */
+.each-card-bg {
+  background-color: #0f172a;
+  padding: 20px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  margin: 5%;
+}
+
+.each-team-logo {
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.teams-name {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.teams-result {
+  font-size: 12px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.teams-win-status {
+  font-size: 12px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #18ed66;
+}
+
+.teams-lost-status {
+  font-size: 12px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #e31a1a;
+}
+
+@media (min-width: 768px) {
+  .each-card-bg {
+    background-color: #0f172a;
+    padding: 30px;
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    margin: 2%;
+  }
+
+  .each-team-logo {
+    height: 150px;
+    margin-bottom: 20px;
+  }
+
+  .teams-name {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+
+  .teams-result {
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-weight: 500;
+  }
+
+  .teams-win-status {
+    font-size: 25px;
+  }
+
+  .teams-lost-status {
+    font-size: 25px;
+  }
+}

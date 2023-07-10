@@ -1,0 +1,36 @@
+/* Write your CSS here */
+
+.bg-conts {
+  background-image: linear-gradient(to bottom, #d91c1f, #a4261d, #1e293b);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.team-banner {
+  height: 130px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.headings {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.bottom-list-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .team-banner {
+    height: 330px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
